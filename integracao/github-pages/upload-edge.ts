@@ -1,0 +1,13 @@
+// Temporary deployment helper. Replaced with a 410 response after verification.
+const SECRET_HASH='__SECRET_HASH__',UNTIL=__UNTIL__,MANIFEST=__UPLOAD_MANIFEST__;
+const base=Deno.env.get('SUPABASE_URL')!,key=Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
+const hash=async(b:BufferSource)=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(n=>n.toString(16).padStart(2,'0')).join('');
+Deno.serve(async(req:Request)=>{try{
+ if(Date.now()>UNTIL||await hash(new TextEncoder().encode(req.headers.get('x-deploy-capability')||''))!==SECRET_HASH)return new Response('Forbidden',{status:403});
+ const action=new URL(req.url).searchParams.get('action');
+ if(action==='fixture'){const email='pages-check-20261122@contas.academia-g11.invalid';if(req.method==='POST'){const body=await req.json();if(typeof body.password!=='string'||body.password.length<32)return new Response('Invalid',{status:400});const r=await fetch(base+'/auth/v1/admin/users',{method:'POST',headers:{apikey:key,Authorization:'Bearer '+key,'Content-Type':'application/json'},body:JSON.stringify({email,password:body.password,email_confirm:true,app_metadata:{g11_temporary_pages_check:true}})});if(!r.ok)return new Response('Fixture failed',{status:502});const user=await r.json();return Response.json({id:user.id});}if(req.method==='DELETE'){const id=new URL(req.url).searchParams.get('id');if(!/^[a-f0-9-]{36}$/.test(id||''))return new Response('Invalid',{status:400});const u=await fetch(base+'/auth/v1/admin/users/'+id,{headers:{apikey:key,Authorization:'Bearer '+key}});const user=await u.json();if(user.email!==email||!user.app_metadata?.g11_temporary_pages_check)return new Response('Forbidden',{status:403});const r=await fetch(base+'/auth/v1/admin/users/'+id,{method:'DELETE',headers:{apikey:key,Authorization:'Bearer '+key}});return new Response(null,{status:r.ok?204:502});}return new Response('Method',{status:405});}
+ const name=new URL(req.url).searchParams.get('name')||'',f=MANIFEST[name];if(!f||req.method!=='POST'||Number(req.headers.get('content-length')||0)>f.size)return new Response('Invalid',{status:400});
+ const body=await req.arrayBuffer();if(body.byteLength!==f.size||await hash(body)!==f.sha256)return new Response('Integrity',{status:400});
+ const path='g11-hub-assets/c13ba103-pages-1/'+name.split('/').map(encodeURIComponent).join('/');
+ const r=await fetch(base+'/storage/v1/object/'+path,{method:'POST',headers:{apikey:key,Authorization:'Bearer '+key,'Content-Type':f.mime,'x-upsert':'true','cache-control':'no-store'},body});return new Response(r.ok?'OK':'Upload failed',{status:r.ok?201:502});
+ }catch{return new Response('Failed',{status:500});}});

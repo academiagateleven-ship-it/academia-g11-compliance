@@ -1,0 +1,542 @@
+{
+  "apoio/m01.html": {
+    "size": 9007,
+    "sha256": "36ac8c54125a61ad859adb177a786806a57576b0cd9ad055c46607290963fbd5",
+    "mime": "text/html; charset=utf-8"
+  },
+  "apoio/M01_Guia_Preparacao_v1_0.pdf": {
+    "size": 53258,
+    "sha256": "8564e488b7a173de64bc98ba46f848ff38cda2a146fa5dc751e8813937769346",
+    "mime": "application/pdf"
+  },
+  "apoio/m02.html": {
+    "size": 8952,
+    "sha256": "986eee60ea4e672cae5764b18c47bc8c0c30349669d2cf52b41129b7d6536a14",
+    "mime": "text/html; charset=utf-8"
+  },
+  "apoio/M02_Guia_Preparacao_v1_0.pdf": {
+    "size": 52968,
+    "sha256": "6716ad75366f2e59ab6cbab21ad4dfa3e1553b0e82a6630b9942a9737ce13b5b",
+    "mime": "application/pdf"
+  },
+  "apoio/study.css": {
+    "size": 1750,
+    "sha256": "3fdd20802efa86edf55fd80ee35a399a944a48e3efe62c7cfac3d37ffd69cb61",
+    "mime": "text/css; charset=utf-8"
+  },
+  "apoio-equipa-v1.png": {
+    "size": 2095246,
+    "sha256": "9a6f43f0785c1c7ab10c52b227795bbcc22f62b1843670aa9f543a77a514fb73",
+    "mime": "image/png"
+  },
+  "app.js": {
+    "size": 11245,
+    "sha256": "d93af4e10c2595ad1f3aed032e9cc2d014f42620d5db3f17067bd71486319c31",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "auth-gate.css": {
+    "size": 960,
+    "sha256": "330ecc1ec24556b6a6904882c326c76445798aafdd92fb9ab481c2ab84f17ff3",
+    "mime": "text/css; charset=utf-8"
+  },
+  "auth-gate.js": {
+    "size": 2249,
+    "sha256": "7d93726e0bef98c8ba8d257f8998c55f683410e24b7ec807b7ef1117bb5a4ca9",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "auth.js": {
+    "size": 25543,
+    "sha256": "0ab2e7c211ed8ad68ecdbd9048d1ec2b9019bbdb89401378158682e905b473a9",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "catalogo.json": {
+    "size": 5628,
+    "sha256": "b57dfb2ae415527e343434ab01522dbfb929e11d6bbe5bc67526688ba45060f4",
+    "mime": "application/json; charset=utf-8"
+  },
+  "compli-avatar.png": {
+    "size": 1681620,
+    "sha256": "71df18ba4bdda40e8433bb03f23b138743e69f5fab7fcff15e9508792ccf14fd",
+    "mime": "image/png"
+  },
+  "compli-data.json": {
+    "size": 57850,
+    "sha256": "9233e3e6d6f942e1a0207e1512ac24a18d241d4e560149f62ea15c332eff8588",
+    "mime": "application/json; charset=utf-8"
+  },
+  "compli.css": {
+    "size": 4106,
+    "sha256": "a30a7586dda9af27eab807ece251d402d5ec13801906f12692867eb625b32413",
+    "mime": "text/css; charset=utf-8"
+  },
+  "compli.js": {
+    "size": 11724,
+    "sha256": "5c0ead6b82ce7b289ed986293595da306c133aa3527ede1160e19a6935ffcc0e",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "contexto.jpg": {
+    "size": 244234,
+    "sha256": "e883f94a7ab227f42b88bedd0e141471857f6545c89c75ed222f88dd81448733",
+    "mime": "image/jpeg"
+  },
+  "downloads/G11_bcft_REVISAO.pdf": {
+    "size": 45312,
+    "sha256": "b3edee8b63e183c99f29c9f99e5d410bad99c2003d8b26500e83b9a9a3b2e613",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_bcft_VISUAL_REVISAO.pdf": {
+    "size": 4107407,
+    "sha256": "19e582f5fbf9260442c235186be85f2a356598eb12c1ef917af6adb3bfd9567c",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_bcft_VISUAL_REVISAO.png": {
+    "size": 1309192,
+    "sha256": "d482f52ef6baee4e94f0ea6e63756f10b39893e418c7d78ffe29f758d537dcb8",
+    "mime": "image/png"
+  },
+  "downloads/G11_evacuacao_REVISAO.pdf": {
+    "size": 45480,
+    "sha256": "71dbd21cf1ebdc8b17dc31b6014746ba655532c1e6a03dd6a5ca1c77dff7e094",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_evacuacao_VISUAL_REVISAO.pdf": {
+    "size": 4107563,
+    "sha256": "97d24852b464a6fec4ed81ea0695bed220323a93fcfd06c1b410e7c5a4f7802e",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_evacuacao_VISUAL_REVISAO.png": {
+    "size": 1306419,
+    "sha256": "322f92669dbe32b51d59eaf1c18c12bc472b1cce1b39fc504c0589354de3bccd",
+    "mime": "image/png"
+  },
+  "downloads/G11_extintores_REVISAO.pdf": {
+    "size": 45320,
+    "sha256": "e7d4519fac603920409d2d21520593987b9e43114a59cc82e56e67992c8c3dbd",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_extintores_VISUAL_REVISAO.pdf": {
+    "size": 4107654,
+    "sha256": "5f00d2282af917537aff224743ff84d60d8f5b9cad46f29e2ea936fecb1fdf6a",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_extintores_VISUAL_REVISAO.png": {
+    "size": 1311617,
+    "sha256": "1cbf536a65a8f6071771cae39ba9849a3f75e75eb14c363ec2e1cdf0305a4164",
+    "mime": "image/png"
+  },
+  "downloads/G11_hsst_REVISAO.pdf": {
+    "size": 45298,
+    "sha256": "e3609113977b536c1568f31df2fe4554640439a05c0f345cda91f103ca22fa92",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_hsst_VISUAL_REVISAO.pdf": {
+    "size": 4107365,
+    "sha256": "3dbedaf75a894566df88ba9dd641aa0c0b0a6ddfe46a975e0b0588c31058c036",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_hsst_VISUAL_REVISAO.png": {
+    "size": 1312090,
+    "sha256": "c92b3aaa138c3196bcb4d6d4decc1256d39c476d2e97fef152c47d076d3d546c",
+    "mime": "image/png"
+  },
+  "downloads/G11_Kit_Instrucoes_REVISAO.zip": {
+    "size": 211778,
+    "sha256": "bf000c845fe4100c6dc67c47ace58b9bf8f82c732d5107b49382be381038f696",
+    "mime": "application/zip"
+  },
+  "downloads/G11_Kit_Instrucoes_VISUAL_REVISAO.zip": {
+    "size": 23219635,
+    "sha256": "637d7fda4e16e2088217844827ec748884573c1cff6c267dffd3548f966b7982",
+    "mime": "application/zip"
+  },
+  "downloads/G11_socorro_REVISAO.pdf": {
+    "size": 45321,
+    "sha256": "abb950c8113bd66670466f88bab2c76595b0b95ca4ededb42223b8e8c95de799",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_socorro_VISUAL_REVISAO.pdf": {
+    "size": 4107452,
+    "sha256": "f4c2991880470749f0ee61538ff0cdba67990ea5eade02073e7adbe19dfdd896",
+    "mime": "application/pdf"
+  },
+  "downloads/G11_socorro_VISUAL_REVISAO.png": {
+    "size": 1306607,
+    "sha256": "77d7201b36ce1d169c590ebdd08248ea407921b82744d3c25b7a19b4588bd251",
+    "mime": "image/png"
+  },
+  "equipa-contexto.png": {
+    "size": 2237963,
+    "sha256": "9de387bcb545d4fef780a04f83358998c40cacfc68233e45410d52b18bb1da54",
+    "mime": "image/png"
+  },
+  "experience.css": {
+    "size": 2427,
+    "sha256": "2b254716f1c398abcfa98a9f42b2e8b0c4212fc030d7e66a1949692477f16c47",
+    "mime": "text/css; charset=utf-8"
+  },
+  "experience.js": {
+    "size": 4166,
+    "sha256": "6754b8c54b1ac4b37dce15a92e2a9467a40322fa41efe24c6de14428d4436039",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "flash-assets/BCFT-01.png": {
+    "size": 2003814,
+    "sha256": "fc22fbc0aa672d7e89169045d250ccb463e0d760a195125a4f7ad615d26b143f",
+    "mime": "image/png"
+  },
+  "flash-assets/BCFT-02.png": {
+    "size": 2029477,
+    "sha256": "56f4e8a7c7987f6d3adbf8aeb0849c189866174cc30c3d1028e193e85292c74e",
+    "mime": "image/png"
+  },
+  "flash-assets/BCFT-03.png": {
+    "size": 1997899,
+    "sha256": "4ab19cc90890e918e24d8da6e983aa1083cde678537b26d4f2882e8d23a2579a",
+    "mime": "image/png"
+  },
+  "flash-assets/BCFT-04.png": {
+    "size": 2137599,
+    "sha256": "fd9d69cfea42e1f0ac2a6311843dabc0e8b014a26319e3821f2172c7c78aed84",
+    "mime": "image/png"
+  },
+  "flash-assets/BCFT-05.png": {
+    "size": 2180649,
+    "sha256": "4b8e2dad6d712506597f32479c0ca40ec5c41c7b6bc743df92ca3b1dab4ae18e",
+    "mime": "image/png"
+  },
+  "flash-assets/DCC-01.png": {
+    "size": 2050730,
+    "sha256": "c8cff5d4830c7bb9f160922775b0dab91b7d9a3cfc0ff3de968aa8bceb3feaad",
+    "mime": "image/png"
+  },
+  "flash-assets/EPS-01.png": {
+    "size": 1774495,
+    "sha256": "04452c0e9788a48735632652f5dc6656ce93a18c03183f0289e587406f3b1853",
+    "mime": "image/png"
+  },
+  "flash-assets/EPS-02.png": {
+    "size": 1716964,
+    "sha256": "032ba1d21be926ce3c1fe837af3402db5f597f5a2fc46d89b5fe1a27114537f8",
+    "mime": "image/png"
+  },
+  "flash-assets/EPS-03.png": {
+    "size": 1691703,
+    "sha256": "7fbce38035734f143c9ef646f6d5a53c912b39f056714b3c22c2ba79419245f7",
+    "mime": "image/png"
+  },
+  "flash-assets/EPS-04.png": {
+    "size": 1993518,
+    "sha256": "faf188d19a8d12b11fc1e3d11527277ca8fb970f2e6065ec5bb6fb88d7198cbc",
+    "mime": "image/png"
+  },
+  "flash-assets/EPS-05.png": {
+    "size": 2129299,
+    "sha256": "ebbd8bcd1ff1b2f9b23061634786b1e421686138b9b550ff5ab93631ff8714b9",
+    "mime": "image/png"
+  },
+  "flash-assets/PAY-01.png": {
+    "size": 2045806,
+    "sha256": "07b639f95963f3d95919f58ab2392778b314b78c92705ea41d49da0858acc7d3",
+    "mime": "image/png"
+  },
+  "flash-assets/PAY-02.png": {
+    "size": 2127940,
+    "sha256": "38e917584d53347b94ede0855f42de325f745dd27791af932a93adad4deb1302",
+    "mime": "image/png"
+  },
+  "flash-assets/SEG-01.png": {
+    "size": 1818405,
+    "sha256": "37a32050a082686ae17015446e6cba0efa692649f4b27a7fa6f077163661a31d",
+    "mime": "image/png"
+  },
+  "flash-assets/SEG-02.png": {
+    "size": 1845384,
+    "sha256": "fc9810d1b2e17c47b4ed96ee94a0e991aff8682dbf2afc5c237399a36cd607c8",
+    "mime": "image/png"
+  },
+  "flash-assets/SEG-03.png": {
+    "size": 1905411,
+    "sha256": "b5ce8d2fae84797f330456cf7193ca03ef51a6a3ceb3561d0148f59e7e030ece",
+    "mime": "image/png"
+  },
+  "flash-assets/SEG-04.png": {
+    "size": 1898770,
+    "sha256": "f5c79102f28885c1ee99e08a5f526c1a47acc88029b1e0fcc69bc407ceae5aa8",
+    "mime": "image/png"
+  },
+  "flash-assets/SEG-05.png": {
+    "size": 1964393,
+    "sha256": "81c146efa126717ddfb8a516db45fd6c21e1439ca668603dd50ca395e47f447a",
+    "mime": "image/png"
+  },
+  "flash-assets/SEG-06.png": {
+    "size": 1922863,
+    "sha256": "b48f4a278968c68fd46569fe3032b953e0c14a4400977903a5c861fca30533df",
+    "mime": "image/png"
+  },
+  "flash-assets/SEG-07.png": {
+    "size": 1984813,
+    "sha256": "8e3467f52eed25028b661cb70d77151f2f335d40d7b8bc321e9ab4b214ecae26",
+    "mime": "image/png"
+  },
+  "flash-assets/SST-01.png": {
+    "size": 1953337,
+    "sha256": "ce1ebc40ebf29e409acf082f1af6743bfba197864e91cdf2e06274d81c100592",
+    "mime": "image/png"
+  },
+  "flash-assets/SST-02.png": {
+    "size": 2031953,
+    "sha256": "98b212726a026c0bcebc91cfbfc59e452aee5af9597a0efa94e73f4573eb76bb",
+    "mime": "image/png"
+  },
+  "flash-assets/SST-03.png": {
+    "size": 2089844,
+    "sha256": "599f13eca1776e00b88d9a65020fd83364e966fb8908478895238d30da90b701",
+    "mime": "image/png"
+  },
+  "flash-assets/SST-04.png": {
+    "size": 1995955,
+    "sha256": "f0ec6d52cbc6a13615828e333a184b944e17dda3c17c3cebbead2ecd4f57619a",
+    "mime": "image/png"
+  },
+  "flash-assets/SST-05.png": {
+    "size": 1992402,
+    "sha256": "e529f6c2ad49f033c91c416fd459a2ae78a684deb8422ae6a7d4437f19e8a3c5",
+    "mime": "image/png"
+  },
+  "flash-assets/TAX-01.png": {
+    "size": 2116032,
+    "sha256": "857400286dbd9c77f7b47b27a61d040261878d68c433cd7a902c243e9d26b5ef",
+    "mime": "image/png"
+  },
+  "flash-assets/TAX-02.png": {
+    "size": 1893215,
+    "sha256": "ee4e0b6ddd187fc01aabcff15637f7b06ce2ba56fa965f4f7e1bc09ae9e88167",
+    "mime": "image/png"
+  },
+  "flash-assets/TAX-03.png": {
+    "size": 2080663,
+    "sha256": "0fa90e24f3f810a51467276b0bd556c6db3f61f197da206d3a74d1ad9261621f",
+    "mime": "image/png"
+  },
+  "flash-assets/TAX-04.png": {
+    "size": 2102533,
+    "sha256": "576f7cc9e482f001b49c5c5a6945824c07cdb5d8146dc75e12031a06c61ebdd1",
+    "mime": "image/png"
+  },
+  "flash-data.js": {
+    "size": 31126,
+    "sha256": "f944ba5acc07f89be768b1aa4768311b5cdf52e6c793e0c4ea1f3f969bbcbab3",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "flash.css": {
+    "size": 2387,
+    "sha256": "463358dc5420c62975d57cfec5c4243a2ccef4e3a528a45c00a1f333003cb0d8",
+    "mime": "text/css; charset=utf-8"
+  },
+  "flash.js": {
+    "size": 11029,
+    "sha256": "3eef754b64af7e880907670d856df83cd92dd12934c4e52fae9619e7b1083fec",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "forms-results.js": {
+    "size": 11712,
+    "sha256": "b1c011bab5b8ffba8b0d57a09c0fdc9be2e784c71820bede5fd48dd220944ac6",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "hub.css": {
+    "size": 5019,
+    "sha256": "4b54a699973d0074a2e13c24aa3a23244240073f3b50a264d530098adaeb61af",
+    "mime": "text/css; charset=utf-8"
+  },
+  "hub.js": {
+    "size": 9430,
+    "sha256": "e4c4bda235a215446d48b056ecc35c46c08451080e04e9a1f07e33613fe191f5",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "index.html": {
+    "size": 2525,
+    "sha256": "9899c08944ba6cd92482bc2cd9e27f1740b4a8e25322b7bd2029a4191ac163c1",
+    "mime": "text/html; charset=utf-8"
+  },
+  "kahoot-parse.js": {
+    "size": 3693,
+    "sha256": "7da01e4e478ffd3672903c9d70b053538de695cbe195e3b1cef200b9d0774a6d",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "kahoot-session.js": {
+    "size": 12145,
+    "sha256": "43af359e3ca232cc62d64140cbdca931980d18cc48838e7428050ba5ede5f25b",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "locations.json": {
+    "size": 2281,
+    "sha256": "06d919742012a19a1afec226297583828c1a41cc46a7ff848d554c927e4700d0",
+    "mime": "application/json; charset=utf-8"
+  },
+  "m00/app.js": {
+    "size": 2157,
+    "sha256": "9b6ae19a285589ebe23fbf89671e8d40b603d0a363d7df8eeb7eb9e2b3774f3e",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "m00/index.html": {
+    "size": 969,
+    "sha256": "2247b3ea6f33bfcc5576dc9f28697ca6313176204eb7616e3d911c78493bab70",
+    "mime": "text/html; charset=utf-8"
+  },
+  "m00/slides.json": {
+    "size": 5971,
+    "sha256": "60f188bf39d95e78734c429036e67f26f20f13882ca0fadca2b90e53cd5d0a03",
+    "mime": "application/json; charset=utf-8"
+  },
+  "m00/style.css": {
+    "size": 1475,
+    "sha256": "823e398fc52aae0e69beff26f69ec87b164bddaada5a573a35b19779a69257f7",
+    "mime": "text/css; charset=utf-8"
+  },
+  "m01/app.js": {
+    "size": 14304,
+    "sha256": "3cf0a9b945fb894b43c7f45ecbd4a03eae5115265225279f168162ac0519a44f",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "m01/assets/aeroporto.jpg": {
+    "size": 244234,
+    "sha256": "e883f94a7ab227f42b88bedd0e141471857f6545c89c75ed222f88dd81448733",
+    "mime": "image/jpeg"
+  },
+  "m01/assets/avenida.jpg": {
+    "size": 272311,
+    "sha256": "8cb14053bc548294be682d48a0c7162c46c891c077ffcd119a193fc15e4e6091",
+    "mime": "image/jpeg"
+  },
+  "m01/assets/colegas.jpg": {
+    "size": 220168,
+    "sha256": "ae27fb26b7796cbb80560b99b70ea2de8c1423919b20f758dd3f0b67bd73e3ac",
+    "mime": "image/jpeg"
+  },
+  "m01/consulta/M01_Caderno_Casos_v0_5.pdf": {
+    "size": 56884,
+    "sha256": "e0da254f7ee4133621621b1234c80ad377bde058f655bbaf4a328b6ad8062193",
+    "mime": "application/pdf"
+  },
+  "m01/consulta/M01_Critical_Essentials_v1_0.pdf": {
+    "size": 973008,
+    "sha256": "3c0384cef32c4f0e2a562509917c7a43a35ba2d0cb5d26a0db4ff50e7801e21f",
+    "mime": "application/pdf"
+  },
+  "m01/consulta/M01_FAQ_v0_5.pdf": {
+    "size": 466052,
+    "sha256": "d0437cc0be9540221a355e5a73e2a8e876a1462c1d05c5de6524bc85b4da0808",
+    "mime": "application/pdf"
+  },
+  "m01/consulta/M01_Ficha_v1_3.pdf": {
+    "size": 463770,
+    "sha256": "3ca06410495e4848f55dec1bca5bb49c9911cedc8c9032daf616f16216f46702",
+    "mime": "application/pdf"
+  },
+  "m01/consulta/M01_Manual_Online_v0_5.pdf": {
+    "size": 500814,
+    "sha256": "b8ee385afc5bfa29b35d6e9bb3d5c66cc30824a7a97affa2ab900772990a0b4c",
+    "mime": "application/pdf"
+  },
+  "m01/consulta/M01_Training_Keycard_v0_5.pdf": {
+    "size": 48996,
+    "sha256": "96ae2c6e3a9b2411526c2a0971aca71b9cf575617c9b66d75405cea4c2b17a95",
+    "mime": "application/pdf"
+  },
+  "m01/conteudos.js": {
+    "size": 122806,
+    "sha256": "77a8473cbb2c4067811e04232b5a8e32014b867777ffba59d395e33e571ac6aa",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "m01/conteudos.json": {
+    "size": 144082,
+    "sha256": "a4a7a14ec6b368b57ae90e05377557dea56fa707c749a963955a10dfd1e37f27",
+    "mime": "application/json; charset=utf-8"
+  },
+  "m01/index.html": {
+    "size": 2033,
+    "sha256": "a89fdb5a9b26536ed8b8d9509fc04bf1187dbe3fbcbe8861c1002ccdc791ea18",
+    "mime": "text/html; charset=utf-8"
+  },
+  "m01/styles.css": {
+    "size": 6476,
+    "sha256": "c2b93797cfd20eb1c7afd0ab59462e98b655b8a05642aa8111a080f923d9d462",
+    "mime": "text/css; charset=utf-8"
+  },
+  "m02/index.html": {
+    "size": 2833757,
+    "sha256": "fd537306655502b5a856bfbdb61ea4139a9d81204ca321416e63626083978b42",
+    "mime": "text/html; charset=utf-8"
+  },
+  "m02/keycards.html": {
+    "size": 13897,
+    "sha256": "cc9724f0ccc867d23ed17b1f2ef7efaba0e5bc6c6e0c6f730c3cae6f78bedc77",
+    "mime": "text/html; charset=utf-8"
+  },
+  "m02-contexto.jpg": {
+    "size": 169666,
+    "sha256": "3e07a9bd918e0b17088c549f3a807dc06173a456d4e860c14e0ee77606063aca",
+    "mime": "image/jpeg"
+  },
+  "modulos.png": {
+    "size": 2336913,
+    "sha256": "35a2eeba0f463ed6bab4e6d46ebaefccb41e69741ad559ac07e934c8b06e3fbf",
+    "mime": "image/png"
+  },
+  "navigation.css": {
+    "size": 3376,
+    "sha256": "247dd177acb1fb412e9a7401f20ea5bcb8829874183b526648520982eb89b425",
+    "mime": "text/css; charset=utf-8"
+  },
+  "navigation.js": {
+    "size": 2107,
+    "sha256": "dc66e38a080f88748ba170eb704a7e94576f7dc15624fade0719314cd443bf85",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "operations.css": {
+    "size": 3601,
+    "sha256": "9de67a03f861142993ada29d79015f886dd088a80265f972f495fdfa7a787f15",
+    "mime": "text/css; charset=utf-8"
+  },
+  "operations.js": {
+    "size": 16476,
+    "sha256": "794404b76b566ab4abecd77c348dbf03d2afc6a0a79ca96dc4bb9c78ddb008d4",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "portal.css": {
+    "size": 4968,
+    "sha256": "5e4f2c999e42f649df2816618a705f6a7bd81a5d4bbc589f0f299101514676ac",
+    "mime": "text/css; charset=utf-8"
+  },
+  "portal.js": {
+    "size": 28215,
+    "sha256": "82dea43287289962f38a430bad61d34b0c6d14d9b31c18441b0404a96307d248",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "quick-tools.js": {
+    "size": 3122,
+    "sha256": "507ac180ee7d55fbfd5ff1c40f4545216efadcb6522a0b9a1471002030930bc1",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "seguranca/cartao-demo.html": {
+    "size": 1665,
+    "sha256": "4834d5e15c108936c18c92732a22cb9f2e8c57a615b6ab4558a8bf9660775954",
+    "mime": "text/html; charset=utf-8"
+  },
+  "study-support.js": {
+    "size": 785,
+    "sha256": "e9ff3baadae9ef74699adbfb0fb4d5004e57e351bdef25041f8d05b8811b6fe6",
+    "mime": "text/javascript; charset=utf-8"
+  },
+  "style.css": {
+    "size": 6557,
+    "sha256": "bf31c1797de13dcc954064e681e4beb656b5d2394e1032cadf3aa8079672eea1",
+    "mime": "text/css; charset=utf-8"
+  },
+  "treino.json": {
+    "size": 12215,
+    "sha256": "eba2a1d5ecb9e018d288f3a0a857a1c4975844cdf79b4ee4444c5bd6dc8aa753",
+    "mime": "application/json; charset=utf-8"
+  }
+}
